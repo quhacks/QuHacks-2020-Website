@@ -332,12 +332,7 @@ tr:nth-child(even) {
 	text-decoration: underline;
     cursor: pointer;
 }
-.sponsors   {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: wrap;
-        flex-flow: wrap;
+.sponsors-gold   {
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -345,19 +340,69 @@ tr:nth-child(even) {
     padding: 0px;
     padding-bottom: 5vh;
 }
-.sponsors > li {
+.sponsors-gold > li {
     padding: .8vh 1vw;
     flex-basis: 25%;
 }
-.sponsors a:hover {
+.sponsors-gold a:hover {
     cursor: pointer;
 }
-.sponsors img:hover {
+.sponsors-gold img:hover {
     cursor: pointer;
 }
-.sponsors img {
+.sponsors-gold img {
+    height: auto;
+    width: 50%;
+}
+.sponsors-silver   {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    padding-bottom: 5vh;
+}
+.sponsors-silver > li {
+    padding: .8vh 1vw;
+    flex-basis: 25%;
+}
+.sponsors-silver a:hover {
+    cursor: pointer;
+}
+.sponsors-silver img:hover {
+    cursor: pointer;
+}
+.sponsors-silver img {
     height: auto;
     width: 70%;
+}
+.sponsors-bronze   {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    padding-bottom: 5vh;
+}
+.sponsors-bronze > li {
+    padding: .8vh 1vw;
+    flex-basis: 25%;
+}
+.sponsors-bronze a:hover {
+    cursor: pointer;
+}
+.sponsors-bronze img:hover {
+    cursor: pointer;
+}
+.sponsors-bronze img {
+    height: auto;
+    width: 20%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.sponsors-label{
+  padding-top: 0%;
 }
 .schedule   {
     width: 100%;
@@ -481,13 +526,31 @@ tr, th, td  {
         width: 60%;
         margin: 1vw;
     }
-    .sponsors {
+    .sponsors-gold {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;
     }
-    .sponsors img   {
+    .sponsors-gold img   {
+        width: 100%;
+    }
+    .sponsors-silver {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .sponsors-silver img   {
+        width: 100%;
+    }
+    .sponsors-bronze {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .sponsors-bronze img   {
         width: 100%;
     }
 }
