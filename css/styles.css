@@ -62,6 +62,9 @@ nav > ul > li {
     padding: 1vh 1.2vw;
     margin: 0;
 }
+nav > ul > li.nav-reg {
+    background-color: #34495e;
+}
 nav > ul > li:hover {
     border-radius: 1.5vh;
     -webkit-transition-duration: 0.5s;
