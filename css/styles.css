@@ -170,7 +170,7 @@ header p {
 }
 /* Copy-pasta from old C10 HAX site */
 .body-container {
-    background-color: #B6B6B6;
+    background-color: #C3CBFE;
     display: flex;
     flex-direction: column;
 }
@@ -313,7 +313,7 @@ tr:nth-child(even) {
     color: #ffffff;
 }
 .panel{
-    background-color: #B6B6B6;
+    background-color: #C3CBFE;
     max-height: 0;
     overflow: hidden;
     -webkit-transition: max-height 0.2s ease-out;
@@ -417,14 +417,14 @@ tr:nth-child(even) {
     color: #000000;
     font-size: 20px;
     border: none;
-    background-color: #B6B6B6;
+    background-color: #C3CBFE;
 }
 td  {
     padding: 2vh 2vw;
 }
 tr, th, td  {
     border: none;
-    background-color: #B6B6B6;
+    background-color: #C3CBFE;
 }
 .table_heading  {
     border-bottom: 2px solid #1A5A98;
@@ -486,7 +486,7 @@ tr, th, td  {
         text-align: center;
     }
     .body-container {
-        background-color: #B6B6B6;
+        background-color: #C3CBFE;
         display: flex;
         flex-direction: column;
     }
@@ -609,7 +609,7 @@ tr, th, td  {
         text-align: center;
     }
     .body-container {
-        background-color: #B6B6B6;
+        background-color: #C3CBFE;
         display: flex;
         flex-direction: column;
     }
