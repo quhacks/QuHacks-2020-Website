@@ -13,7 +13,7 @@ ul  {
 }
 
 .button {
-  background-color: #ffbc5a;
+  background-color: #ffa31d;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -181,7 +181,7 @@ header p {
     background-color: #0D2D4C;
 }
 .colored > h1   {
-    color: #ffbc5a;
+    color: #ffa31d;
 }
 h1 {
     text-align: center;
@@ -417,6 +417,7 @@ tr:nth-child(even) {
     color: #000000;
     font-size: 20px;
     border: none;
+    border-collapse: collapse;
     background-color: #C3CBFE;
 }
 td  {
@@ -431,9 +432,13 @@ tr, th, td  {
     padding: 0 2vw;
 }
 .section-heading {
-    padding-top: 50px;
-    font-size: 400%
+    font-size: 8vh; 
 }
+
+.fab, .fas {
+    color: #ffa31d;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1280px) {
    header {
         width: 100%;
