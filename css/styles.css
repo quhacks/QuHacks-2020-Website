@@ -62,9 +62,11 @@ nav > ul > li {
     padding: 1vh 1.2vw;
     margin: 0;
 }
-nav > ul > li.nav-reg {
-    background-color: #34495e;
+    
+nav > ul > li.nav-reg > a {
+   color: #ffbc5a;
 }
+
 nav > ul > li:hover {
     border-radius: 1.5vh;
     -webkit-transition-duration: 0.5s;
@@ -81,7 +83,7 @@ nav > ul > li > a {
     transition-duration: 0.5s;
     background-color: transparent;
 }
-.navTransparent > ul > li:hover {
+.navTransparent > ul > li:hover, .navTransparent > ul > li.nav-reg {
     border: 1px solid #ffbc5a;
 }
 .navTransparent > ul > li > a {
@@ -103,7 +105,7 @@ nav > ul > li > a {
     transition-duration: 0.5s;
     background-color: #071a2c;
 }
-.navColor > ul > li:hover {
+.navColor > ul > li:hover, .navColor > ul > li.nav-reg {
     border: 1px solid #ffbc5a;
 }
 .navColor > ul > li > a {
