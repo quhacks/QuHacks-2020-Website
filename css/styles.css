@@ -121,7 +121,8 @@ nav > ul > li > a {
     color: white;
 }
 footer {
-    margin: 3vh 2vw;
+    /*margin: 3vh 2vw;*/
+    margin: 1%;
     display: block;
     position: fixed;
     right: 0;
@@ -685,4 +686,22 @@ tr, th, td  {
     .sponsors img   {
         width: 100%;
     }
+}
+
+.scroll-wrapper {
+    overflow-x: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+nav a:link{
+    text-decoration: none;
+    color: white;
+}
+nav a:visited{
+    color: white;
+}
+nav a:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
