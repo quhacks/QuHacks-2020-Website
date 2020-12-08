@@ -15,7 +15,7 @@ ul  {
 .button {
   background-color: #ffa31d;
   border: none;
-  color: white;
+  color: #0d2d4c;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -632,7 +632,7 @@ tr, th, td  {
         text-align: center;
     }
     .body-container {
-        background-color: #02D24C;
+        background-color: #0D2D4C;
         display: flex;
         flex-direction: column;
     }
