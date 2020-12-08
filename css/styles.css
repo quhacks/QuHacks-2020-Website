@@ -127,6 +127,7 @@ footer {
     position: fixed;
     right: 0;
     bottom: 0;
+    user-select: none;
 }
 footer > a > img {
     height: auto;
