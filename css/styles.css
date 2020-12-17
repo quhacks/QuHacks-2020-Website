@@ -60,9 +60,9 @@ nav > ul > li {
     border-radius: 1vh;
     float: left;
     padding: 1vh 1.2vw;
-    margin: 0;
+    margin-right: 10px;
 }
-    
+
 nav > ul > li.nav-reg > a {
    color: #ffbc5a;
 }
@@ -149,6 +149,10 @@ footer > a > img {
 .flex-info  {
     width: 60%;
 }
+.flex-info > a {
+  margin-right: 10px
+}
+
 header {
     width: 100%;
     background: linear-gradient(#1e4973AA, #1e4973AA), url('../media/old_header.jpg');
